@@ -1,4 +1,4 @@
-# Tradeit
+# The Tradeit Client [![Build Status](https://travis-ci.org/rendegosling/tradeit.svg?branch=master)](https://travis-ci.org/rendegosling/tradeit)
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/tradeit`. To experiment with that code, run `bin/console` for an interactive prompt.
 
