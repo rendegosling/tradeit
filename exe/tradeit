@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+# :(
+Encoding.default_external = Encoding::UTF_8 if defined? Encoding
+
+# load travis library
+require 'bundler/setup' if File.exist? File.expand_path('../../Gemfile', __FILE__)
+require 'tradeit/cli'
+
+Tradeit::CLI.run(ARGV)
