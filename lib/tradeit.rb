@@ -1,6 +1,5 @@
-require "tradeit/version"
+require 'tradeit/version'
+require 'tradeit/error'
 
 module Tradeit
-  class Error < StandardError; end
-  # Your code goes here...
 end
